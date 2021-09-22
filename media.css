@@ -1,0 +1,154 @@
+@media only screen and (max-device-width: 1418px){
+  .choose,.accomo_h2,.our-best ,.breakfast{
+    font-size: 50px;
+    line-height: 48px;
+  }
+  .heading-primary,.heading-secondary{
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
+@media only screen and (max-device-width: 1328px){
+  .choose,.accomo_h2,.our-best ,.breakfast{
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .heading-primary,.heading-secondary{
+    font-size: 42px;
+    line-height: 42px;
+  }
+  .main-center{
+    height: 100vh;
+  }
+  .paragraph{
+    padding-bottom: 50px;
+  }
+  .form-container{
+    margin-top: -6rem;
+    min-width: 80%;
+  }
+}
+
+@media only screen and (max-device-width: 1200px){
+   
+  }
+  
+  @media only screen and (max-device-width: 1024px) {
+    .navigation {
+      padding: 1rem 3rem;
+    }
+    .nav-btn {
+      padding: 0.5rem;
+    }
+    .signin {
+      margin-left: 1rem;
+    }
+    .main-center span {
+      font-size: 2.2rem;
+      line-height: 2.4rem;
+      padding-bottom: 1rem;
+      font-weight: 700;
+    }
+    .form-container {
+      margin-top: -10rem;
+      padding: 2rem 4rem 0 4rem;
+    }
+    .form-items {
+      max-width: 40%;
+    }
+    .title h2,
+    .title2 h2 {
+      font-size: 2.4rem;
+      line-height: 2.4rem;
+    
+    }
+    .flex-container{
+        gap:5rem;
+    }
+    .image-part figure img{
+      width:120%;
+    }
+    .section3{
+        margin-top: 4rem;
+    }
+    .section4 {
+      padding: 3rem 8rem;
+      margin-top: 5rem;
+    }
+    .tes-textbox {
+      padding: 0 5% 1.4rem 5%;
+    }
+    .contact-container {
+      padding: 0 5%;
+    }
+  }
+  @media only screen and (max-device-width: 768px){
+      .flex-container{
+          padding:5rem;
+      }
+      .form-container{
+          padding:1rem 2rem 0 2rem;
+      }
+      .form-items{
+          padding-left: 0.8rem;
+          max-width:28%;
+      }
+      .label{
+          font-size: 1rem;
+      }
+  }
+  @media only screen and (max-device-width: 768px){
+      .navigation {
+          padding: 2rem 4rem;
+        }
+        .main-center h1 {
+          font-size: 3rem;
+          line-height: 3rem;
+          padding-bottom: 1.2rem;
+        }
+        .main-center span {
+          font-size: 2.8rem;
+          line-height: 2.8rem;
+          padding-bottom: 1.4rem;
+          font-weight: 800;
+        }
+        .main-center p {
+          line-height: 1.8rem;
+          padding-bottom: 5rem;
+        }
+        .form-inputs {
+          flex-direction: column;
+          gap:1rem;   
+        }
+        .form-container {
+          margin-top: -20rem;
+          padding: 2rem 4rem 0 4rem;
+        }
+        .form-items {
+          
+          max-width:100%;
+         
+        }
+        .flex-container{
+            flex-direction: column;
+        }
+        .section4{
+            flex-direction: column;
+        }
+        .tes-textbox{
+            flex-direction: column;
+            padding:0 5rem 2rem 5rem;
+        }
+        .contact-container{
+          flex-direction: column;
+          margin: 0 auto;
+          gap:16rem;
+          padding:0 5rem 10rem 5rem;
+        }
+        .grid_container{
+          grid-template-columns: 1fr;
+        }
+        .text-part2{
+          grid-row: 3;
+        }
+  }
